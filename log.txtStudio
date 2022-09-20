@@ -1,0 +1,293 @@
+﻿15000  11:45:46,47625  ms7_ini(): >>>>>
+15000          ,47625  ms7_ini(): MicrosoftSQLServer , Version Magic xpa 4.7.2-0 29-May-2021
+15000          ,47625  Version Magic xpa 4.7.2, Log = log.txtStudio,  Level = Support/QA,  Sync = None,  Date = 20/09/2022
+15000          ,47625  ms7_ini(): <<<<< retcode = 36
+
+
+15000  11:45:47,48640  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = SYOUHINA
+15000          ,48953  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 9999
+15000          ,48953  STMT - SELECT CURRENT_USER
+15000          ,48953  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'SYOUHINA' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,49046  STMT : DROP TABLE MGXPI413..SYOUHINA 
+15000          ,49062  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,49250  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = URIAGE
+15000          ,49250  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,49250  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000  11:45:48,49312  STMT : DROP TABLE MGXPI413..URIAGE 
+15000          ,49328  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000  11:48:25,06453  ms7_fil_exist(): >>>>> ctxID = -1, server = ROHANKLPT\SQLEXPRESS, database = MGXPI413, file : SYOUHINA
+15000  (157 sec),06453  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,06453  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - SYOUHINA
+15000          ,06453  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'SYOUHINA' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,06546  ms7_fil_exist(): <<<<< ctxID = -1, retcode = 62
+
+
+15000  11:59:16,57578  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = SYOUHINA
+15000  (651 sec),57578  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,57578  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'SYOUHINA' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,57578  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,57656  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = URIAGE
+15000          ,57656  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,57656  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,57656  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000  12:01:00,61875  ms7_fil_exist(): >>>>> ctxID = -1, server = ROHANKLPT\SQLEXPRESS, database = MGXPI413, file : SYOUHINA
+15000  (104 sec),61875  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61875  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - SYOUHINA
+15000          ,61875  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'SYOUHINA' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,61890  ms7_fil_exist(): <<<<< ctxID = -1, retcode = 62
+
+
+15000  12:24:09,50968  ms7_fil_exist(): >>>>> ctxID = -1, server = ROHANKLPT\SQLEXPRESS, database = MGXPI413, file : URIAGE
+15000  (1389 sec),50968  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,50968  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - URIAGE
+15000          ,50984  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,51062  ms7_fil_exist(): <<<<< ctxID = -1, retcode = 0
+
+
+15000  12:24:19,61015  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = CNV002
+15000  (10 sec),61015  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61015  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'CNV002' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,61078  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61078  ms7_fil_open(): >>>>> ctxID = -1, database = MGXPI413, table = CNV002, dbd->opened=0, share = N
+15000          ,61078  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61078  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61078  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - CNV002
+15000          ,61078  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'CNV002' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,61125  ms7_esqlc_get_inmemory_property() : db - MGXPI413
+15000          ,61125  STMT: 	SELECT DatabasePropertyEx('master', 'IsXTPSupported')
+15000          ,61125  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61125  STMT : CREATE TABLE MGXPI413..CNV002 (COL1 CHAR(13) NOT NULL,COL2 SMALLINT NOT NULL,COL3 DATETIME NOT NULL,COL4 FLOAT NOT NULL,COL5 FLOAT NOT NULL,COL6 FLOAT NOT NULL,COL7 FLOAT NOT NULL,COL8 FLOAT NOT NULL,COL9 FLOAT NOT NULL,COL10 BIT NULL,COL11 BIT NULL,COL12 FLOAT NOT NULL,COL13 FLOAT NOT NULL,COL14 FLOAT NOT NULL,COL15 FLOAT NULL,COL16 FLOAT NULL,COL17 SMALLINT NOT NULL,COL18 SMALLINT NOT NULL)
+15000          ,61140  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61140  STMT : CREATE UNIQUE NONCLUSTERED INDEX KEY001CNV002 ON MGXPI413..CNV002 (COL2, COL1, COL17)
+15000          ,61140  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61140  STMT : CREATE UNIQUE NONCLUSTERED INDEX KEY002CNV002 ON MGXPI413..CNV002 (COL17, COL2, COL1)
+15000          ,61140  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61140  STMT : CREATE UNIQUE NONCLUSTERED INDEX KEY003CNV002 ON MGXPI413..CNV002 (COL2, COL1, COL11)
+15000          ,61156  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61156  STMT : CREATE UNIQUE NONCLUSTERED INDEX KEY004CNV002 ON MGXPI413..CNV002 (COL10, COL2, COL1)
+15000          ,61156  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61156  STMT : CREATE  NONCLUSTERED INDEX KEY005CNV002 ON MGXPI413..CNV002 (COL1)
+15000          ,61156  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61156  STMT : CREATE  NONCLUSTERED INDEX KEY006CNV002 ON MGXPI413..CNV002 (COL1, COL3)
+15000          ,61156  ms7_fil_open(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61156  ms7_fil_open(): >>>>> ctxID = -1, database = MGXPI413, table = URIAGE, dbd->opened=0, share = N
+15000          ,61156  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61156  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61156  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - URIAGE
+15000          ,61156  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,61156  ms7_esqlc_get_inmemory_type() : db - MGXPI413, owner - , table - URIAGE
+15000          ,61171  STMT: 	select sys.tables.is_memory_optimized from sys.objects,sys.schemas,sys.database_principals, sys.tables where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U') AND sys.objects.object_id = sys.tables.object_id
+15000  12:24:20,61281  ms7_fil_open(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61406  ms7_crsr_prepare(): >>>>> ctxID = -1, database = MGXPI413, key_idx = 0
+15000          ,61406  ms7_crsr_prepare(): table = URIAGE
+15000          ,61406  ms7_crsr_prepare(): number of blobs = 0
+15000          ,61406  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61406  ms7_crsr_prepare(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61406  ms7_crsr_prepare(): >>>>> ctxID = -1, database = MGXPI413, key_idx = 65535
+15000          ,61406  ms7_crsr_prepare(): table = CNV002
+15000          ,61406  ms7_crsr_prepare(): number of blobs = 0
+15000          ,61406  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61406  ms7_crsr_prepare(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61406  ms7_trans(): >>>>> ctxID = -1, transmode = 4, db = 20
+15000          ,61406  Hold thru ms7_trans(): >>>>> ctxID = -1, serverID = 1, dbconn_hdl = 0
+15000          ,61406  Hold thru ms7_trans(): <<<<< ctxID = -1, errcode = 0, RC = RC_OK
+15000          ,61406  session - 0, in use - 1, write - 1, reusable - 1, results pending - 0,not only for cursors - 1
+15000          ,61406  ms7_trans(): OPEN_WRITE
+15000          ,61406  ms7_trans(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61406  ms7_crsr_begin(): >>>>> ctxID = -1
+15000          ,61406  ms7_crsr_begin(): <<<<< ctxID = -1, retcode = RET_OK
+
+
+15000          ,61406  ms7_crsr_begin(): >>>>> ctxID = -1
+15000          ,61406  ms7_crsr_begin(): <<<<< ctxID = -1, retcode = RET_OK
+
+
+15000          ,61406  ms7_crsr_open(): >>>>> ctxID = -1, dbd_hdl = 1 
+15000          ,61406  ms7_crsr_open(): Cursor array size 875 
+15000          ,61406  ms7_crsr_open(): db = MGXPI413, table = URIAGE, crsr_hdl = 0, dir = A, dir_rev = 0 , rngs = 0, Range:FALSE, Start Pos:FALSE
+15000          ,61406  ms7_crsr_open(): checking if dummy fetch available
+15000          ,61406  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61406  SET IMPLICIT_TRANSACTIONS ON
+15000          ,61406   
+	STMT: SELECT COL1,COL2,COL3,COL4,COL5,COL6,COL7,COL8,COL9,COL10,COL11,COL12,COL13,COL14,COL15,COL16,COL17,COL18 FROM MGXPI413..URIAGE ORDER BY COL2 ASC ,COL1 ASC ,COL17 ASC ,COL3 ASC 
+15000          ,61406   
+	STMT: SELECT COL1,COL2,COL3,COL4,COL5,COL6,COL7,COL8,COL9,COL10,COL11,COL12,COL13,COL14,COL15,COL16,COL17,COL18 FROM MGXPI413..URIAGE ORDER BY COL2 ASC ,COL1 ASC ,COL17 ASC ,COL3 ASC 
+15000          ,61406  Using CURSOR
+15000          ,61406  ms7_crsr_open(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61406  ms7_crsr_fetch(): >>>>> ctxID = -1, dbd_hdl = 1, lock = FALSE
+15000          ,61406  	FETCH Read0
+15000          ,61421  	RESULT:  01               
+	RESULT: 1
+15000          ,61421  	RESULT: 2022/10/01 00:00    
+	RESULT: 1.000000
+15000          ,61421   
+	RESULT: 1000.000000
+15000          ,61421   
+	RESULT: 0.000000
+15000          ,61421   
+	RESULT: 0.000000
+15000          ,61421   
+	RESULT: 0.000000
+15000          ,61421   
+	RESULT: 1000.000000
+15000          ,61421  	RESULT: NULL   	RESULT: NULL    
+	RESULT: 1000.000000
+15000          ,61421   
+	RESULT: 1000.000000
+15000          ,61421   
+	RESULT: 1000.000000
+15000          ,61421  	RESULT: NULL   	RESULT: NULL    
+	RESULT: 2022
+15000          ,61421   
+	RESULT: 0
+15000          ,61421  ms7_crsr_fetch(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61421  ms7_crsr_insert(): >>>>> ctxID = -1
+15000          ,61421  ms7_crsr_insert(): database = MGXPI413, table name = CNV002, crsr_hdl = 1
+15000          ,61421  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61421   
+	STMT: INSERT INTO MGXPI413..CNV002 (COL1 , COL2 , COL3 , COL4 , COL5 , COL6 , COL7 , COL8 , COL9 , COL10 , COL11 , COL12 , COL13 , COL14 , COL15 , COL16 , COL17 , COL18 ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+15000          ,61421  STMT: INSERT INTO MGXPI413..CNV002 (COL1 , COL2 , COL3 , COL4 , COL5 , COL6 , COL7 , COL8 , COL9 , COL10 , COL11 , COL12 , COL13 , COL14 , COL15 , COL16 , COL17 , COL18 ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+15000          ,61421  Using COMMAND
+15000          ,61421  	STMT: NULL, 2022, 0) 
+15000          ,61421  ms7_crsr_insert(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61421  ms7_crsr_fetch(): >>>>> ctxID = -1, dbd_hdl = 1, lock = FALSE
+15000          ,61421  ms7_crsr_fetch(): <<<<< ctxID = -1, retcode = 61
+
+
+15000          ,61421  ms7_crsr_close(): >>>>> ctxID = -1, crsr_hdl = 0
+15000          ,61421  ms7_crsr_close(): <<<<< ctxID = -1, retcode = RET_OK
+
+
+15000          ,61421  ms7_crsr_end >>>>> ctxID = -1 
+15000          ,61421  ms7_crsr_end <<<<< ctxID = -1, retcode = RET_OK
+
+
+15000          ,61421  ms7_crsr_end >>>>> ctxID = -1 
+15000          ,61421  ms7_crsr_end <<<<< ctxID = -1, retcode = RET_OK
+
+
+15000          ,61421  ms7_trans(): >>>>> ctxID = -1, transmode = 8, db = 20
+15000          ,61421  session - 0, in use - 1, write - 1, reusable - 1, results pending - 0,not only for cursors - 1
+15000          ,61421  ms7_trans(): COMMIT
+15000          ,61437  SET IMPLICIT_TRANSACTIONS OFF
+15000          ,61437  ms7_trans(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61437  ms7_crsr_release(): >>>>> ctxID = -1
+15000          ,61437  ms7_crsr_release(): database = MGXPI413, table name = CNV002, crsr_hdl = 1
+15000          ,61437  ms7_crsr_release(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61437  ms7_crsr_release(): >>>>> ctxID = -1
+15000          ,61437  ms7_crsr_release(): database = MGXPI413, table name = URIAGE, crsr_hdl = 0
+15000          ,61437  ms7_crsr_release(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61468  ms7_fil_close(): >>>>> ctxID = -1, file : CNV002, dbd->opened = 0
+15000          ,61468  ms7_fil_close(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61468  ms7_fil_close(): >>>>> ctxID = -1, file : URIAGE, dbd->opened = 0
+15000          ,61468  ms7_fil_close(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61468  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = URIAGE
+15000          ,61468  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61468  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,61531  STMT : DROP TABLE MGXPI413..URIAGE 
+15000          ,61546  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,61546  ms7_fil_rename(): >>>>> ctxID = -1, from_file : CNV002 in MGXPI413, to_file : URIAGE in MGXPI413
+15000          ,61546  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61546  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,61546  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61546  STMT : CREATE TABLE MGXPI413..URIAGE (COL1 CHAR(13) NOT NULL,COL2 SMALLINT NOT NULL,COL3 DATETIME NOT NULL,COL4 FLOAT NOT NULL,COL5 FLOAT NOT NULL,COL6 FLOAT NOT NULL,COL7 FLOAT NOT NULL,COL8 FLOAT NOT NULL,COL9 FLOAT NOT NULL,COL10 BIT NULL,COL11 BIT NULL,COL12 FLOAT NOT NULL,COL13 FLOAT NOT NULL,COL14 FLOAT NOT NULL,COL15 FLOAT NULL,COL16 FLOAT NULL,COL17 SMALLINT NOT NULL,COL18 SMALLINT NOT NULL)
+15000          ,61546  STMT : INSERT INTO MGXPI413..URIAGE (COL1,COL2,COL3,COL4,COL5,COL6,COL7,COL8,COL9,COL10,COL11,COL12,COL13,COL14,COL15,COL16,COL17,COL18) SELECT COL1,COL2,COL3,COL4,COL5,COL6,COL7,COL8,COL9,COL10,COL11,COL12,COL13,COL14,COL15,COL16,COL17,COL18 FROM MGXPI413..CNV002
+15000          ,61562  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'CNV002' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,61562  STMT : DROP TABLE MGXPI413..CNV002 
+15000          ,61562  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61562  STMT : CREATE UNIQUE NONCLUSTERED INDEX D_SYOUHIGE_KEY001 ON MGXPI413..URIAGE (COL2, COL1, COL17)
+15000          ,61609  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61609  STMT : CREATE UNIQUE NONCLUSTERED INDEX D_SYOUHIGE_KEY002 ON MGXPI413..URIAGE (COL17, COL2, COL1)
+15000          ,61625  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61625  STMT : CREATE UNIQUE NONCLUSTERED INDEX D_SYOUHIGE_KEY003 ON MGXPI413..URIAGE (COL2, COL1, COL11)
+15000          ,61625  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61625  STMT : CREATE UNIQUE NONCLUSTERED INDEX D_SYOUHIGE_KEY004 ON MGXPI413..URIAGE (COL10, COL2, COL1)
+15000          ,61640  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61640  STMT : CREATE  NONCLUSTERED INDEX D_SYOUHIGE_KEY005 ON MGXPI413..URIAGE (COL1)
+15000          ,61640  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,61640  STMT : CREATE  NONCLUSTERED INDEX D_SYOUHIGE_KEY006 ON MGXPI413..URIAGE (COL1, COL3)
+15000          ,61656  ms7_fil_rename(): <<<<< ctxID = -1, retcode = 0
+
+
+15000  12:27:43,64546  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = SYOUHINA
+15000  (203 sec),64546  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,64546  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'SYOUHINA' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,64546  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,64765  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = URIAGE
+15000          ,64765  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,64765  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,64765  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000          ,64968  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = URIAGE
+15000          ,64968  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,64968  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,64968  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+
+15000  12:32:08,29687  ms7_fil_exist(): >>>>> ctxID = -1, server = ROHANKLPT\SQLEXPRESS, database = MGXPI413, file : URIAGE
+15000  (265 sec),29687  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,29687  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - URIAGE
+15000          ,29687  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+15000          ,29750  ms7_fil_exist(): <<<<< ctxID = -1, retcode = 62
+
+
+15000  12:33:54,36171  ms7_fil_exist(): >>>>> ctxID = -1, server = ROHANKLPT\SQLEXPRESS, database = MGXPI413, file : SYOUHINA
+15000  (106 sec),36171  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+15000          ,36171  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - SYOUHINA
+15000          ,36187  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'SYOUHINA' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+15000  12:33:55,36312  ms7_fil_exist(): <<<<< ctxID = -1, retcode = 62
+
+
+15000  20:04:00,41328  ms7_trm(): >>>>>
+15000  (27005 sec),41328  ms7_trm(): inited - 1
+15000  20:04:01,42343  ms7_trm(): <<<<< retcode = RET_OK
+
+

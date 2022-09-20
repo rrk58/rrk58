@@ -1,0 +1,25 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14072.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="10"/>
+
+  <LastIsnFolder val="0"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="SYOUHINA" Resident="N" UniqueISNConvState="12" data_source="MSSQL" id="8" name="SYOUHIN" offset="229" length="5344"/> 
+<DataObject PhysicalName="URIAGE" Resident="N" UniqueISNConvState="12" data_source="MSSQL" id="9" name="URIAGE" offset="5574" length="13553"/> 
+<DataObject PhysicalName="URIAGE" Resident="N" UniqueISNConvState="12" data_source="MSSQL" id="10" name="URIAGE" offset="19128" length="14026"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="3098540763260790"/>  </Application>

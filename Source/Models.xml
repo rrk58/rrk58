@@ -1,0 +1,3152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14072.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="88"/>
+    <LastIsnFolder val="0"/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="M1">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="M2">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="M3">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="M4">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="M5">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="M6">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="M7">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="M8">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="M9">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="M10">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="M11">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="M12">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="M13">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="M14">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="M15">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="M16">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="M17">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="18" name="M18">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="M19">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="M20">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="M21">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="22" name="M22">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="M1">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="24" name="M2">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="M3">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="M4">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="27" name="M5">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="28" name="M6">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="29" name="M7">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="30" name="M8">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="31" name="M9">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="32" name="M10">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="33" name="M11">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="34" name="M12">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="35" name="M13">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="36" name="M14">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="37" name="M15">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="38" name="M16">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="39" name="M17">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="40" name="M18">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="41" name="M19">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="42" name="M20">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="43" name="M21">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="44" name="M22">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="45" name="M1">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="46" name="M2">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="47" name="M3">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="48" name="M4">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="49" name="M5">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="50" name="M6">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="51" name="M7">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="52" name="M8">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="53" name="M9">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="54" name="M10">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="55" name="M11">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="56" name="M12">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="57" name="M13">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="58" name="M14">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="59" name="M15">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="60" name="M16">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="61" name="M17">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="62" name="M18">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="63" name="M19">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="64" name="M20">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="65" name="M21">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="66" name="M22">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="67" name="M1">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="68" name="M2">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="69" name="M3">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="70" name="M4">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="71" name="M5">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="72" name="M6">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="73" name="M7">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="74" name="M8">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="75" name="M9">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="76" name="M10">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="77" name="M11">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="78" name="M12">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MM/DDZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="79" name="M13">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="YYYY/MMZ A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <DefaultValue id="170" val="0"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="80" name="M14">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="81" name="M15">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+        </PropertyList>
+      </Object>
+      <Object id="82" name="M16">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="13A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="13"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="83" name="M17">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="84" name="M18">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="85" name="M19">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N7.2CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="7"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="86" name="M20">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N10CZ"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="87" name="M21">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4P0Z A"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+              <Border id="452" val="Y"/>
+              <V11Style id="539" val="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <GuiOutput id="160">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutput>
+          <GuiOutputTable id="161">
+            <PropertyList model="CTRL_GUI1_EDIT">
+              <Font id="50" val="111"/>
+              <Color id="51" val="101"/>
+            </PropertyList>
+          </GuiOutputTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="88" name="M22">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N9CZ"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <MobileDesignMode Val="N"/>
+
+  <EditProjectMode Val="N"/>
+
+  <DebugMode Val="Y"/>
+
+  <RIAExecutionPlatform Val="Desktop"/>
+
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="Sample.Sub"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="6"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="1055475008"/>
+      <Component2 Val="15514"/>
+      <Component3 Val="20328"/>
+      <Component4 Val="694811287"/>
+      <Component5 Val="-233915528"/>
+      <Prog Val="9"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="6"/>
+    </Breakpoint>
+  </Breakpoints>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>

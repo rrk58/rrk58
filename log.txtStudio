@@ -291,3 +291,33 @@
 15000  20:04:01,42343  ms7_trm(): <<<<< retcode = RET_OK
 
 
+17944  22:43:40,21796  ms7_ini(): >>>>>
+17944          ,21796  ms7_ini(): MicrosoftSQLServer , Version Magic xpa 4.7.2-0 29-May-2021
+17944          ,21796  Version Magic xpa 4.7.2, Log = log.txtStudio,  Level = Support/QA,  Sync = None,  Date = 20/09/2022
+17944          ,21796  ms7_ini(): <<<<< retcode = 36
+
+
+17944  22:43:41,22812  ms7_fil_exist(): >>>>> ctxID = -1, server = ROHANKLPT\SQLEXPRESS, database = MGXPI413, file : URIAGE
+17944          ,22843  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 9999
+17944          ,22843  STMT - SELECT CURRENT_USER
+17944          ,22843  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - URIAGE
+17944          ,22843  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+17944          ,22875  ms7_fil_exist(): <<<<< ctxID = -1, retcode = 0
+
+
+17944  22:44:07,48062  ms7_fil_exist(): >>>>> ctxID = -1, server = ROHANKLPT\SQLEXPRESS, database = MGXPI413, file : URIAGE
+17944  (26 sec),48062  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+17944          ,48062  ms7_esqlc_fil_exist() : db - MGXPI413, owner - , table - URIAGE
+17944          ,48062  ms7_esqlc_fil_exist(): 
+	select object_id from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.schemas.name = sys.database_principals.default_schema_name AND sys.objects.type IN ('U', 'V', 'S')
+17944          ,48078  ms7_fil_exist(): <<<<< ctxID = -1, retcode = 0
+
+
+17944  22:44:15,56656  ms7_fil_del(): >>>>> ctxID = -1, database = MGXPI413, file = URIAGE
+17944  ( 8 sec),56656  ms7_connect_extra_session(): >>>>> database = MGXPI413, pConnection->sess_extra = 0
+17944          ,56671  STMT: 	select sys.objects.type from sys.objects,sys.schemas,sys.database_principals where sys.objects.name = 'URIAGE' AND  sys.objects.schema_id = sys.schemas.schema_id AND sys.schemas.principal_id = sys.database_principals.principal_id AND sys.objects.type IN ('U', 'V', 'S')
+17944          ,56687  STMT : DROP TABLE MGXPI413..URIAGE 
+17944          ,56703  ms7_fil_del(): <<<<< ctxID = -1, retcode = 0
+
+

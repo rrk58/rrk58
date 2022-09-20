@@ -11747,3 +11747,8 @@
  <253199522632138240> 20/09/2022 12:35:08.465     [Action ] -      ,09703  ms7_fil_close(): <<<<< ctxID = -1, retcode = 0
 
 
+ *********************   Date: 20/09/2022  ********************
+ <-1> 20/09/2022 22:33:42.997     [Info   ] -   License file: "D:\MSE\XPA47\license.dat", License feature: 'MGCSTK'.
+ *********************   Date: 20/09/2022  ********************
+ <-1> 20/09/2022 22:34:56.752     [Info   ] -   License file: "D:\MSE\XPA47\license.dat", License feature: 'MGCSTK'.
+ <-1> 20/09/2022 22:35:25.775     [Info   ] -   License file: "D:\MSE\XPA47\license.dat", License feature: 'MGCSTK'.
